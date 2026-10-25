@@ -103,9 +103,10 @@ jobs:
           counts = [count for _, count in days]
           maximum = max(counts, default=0)
 
+          
           def shade(count):
               if count == 0:
-                  return "#161B22"
+                  return "#161B22"  # Empty day
 
               if maximum <= 1:
                   level = 4
@@ -115,14 +116,14 @@ jobs:
                       max(1, (count * 4 + maximum - 1) // maximum)
                   )
 
-              
               return [
-                  "#161B22",  # No contributions
-                  "#0E7490",  # Low
-                  "#0891B2",  # Medium-low
-                  "#14B8A6",  # Medium-high
-                  "#34D399"   # High
+                  "#161B22",  # Empty
+                  "#22A6B3",  # Cyan / teal
+                  "#20C997",  # Turquoise green
+                  "#28A745",  # Green
+                  "#8957E5"   # Purple
               ][level]
+
 
           first_date = datetime.strptime(
               days[0][0], "%Y-%m-%d"
