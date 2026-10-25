@@ -175,13 +175,15 @@ AI-powered tools, useful web apps, workflow automation, and prototypes that solv
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ayushmaurya01&theme=transparent&hide_border=true&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6)](https://github.com/Ayushmaurya01)
 
 
+## Activity Calender
 ## 📈 My GitHub Journey
 
 <div align="center">
 
-[![GitHub Contributions](https://ghchart.rshah.org/14b8a6/Ayushmaurya01)](https://github.com/Ayushmaurya01)
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushmaurya01&show_icons=true&hide_border=true&bg_color=0D1117&title_color=14B8A6&icon_color=14B8A6&text_color=C9D1D9" alt="GitHub Stats" />
 
 </div>
+
 
 
 </div>
