@@ -1,99 +1,238 @@
 <div align="center">
 
-# Ayush Maurya
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:164E63,100:0F766E&height=190&section=header&text=AYUSH%20MAURYA&fontSize=42&fontColor=F8FAFC&fontAlignY=38&desc=AI%20Engineering%20%7C%20Cybersecurity%20%7C%20Cloud&descAlignY=60&descSize=16" width="100%" alt="Ayush Maurya — AI Engineering, Cybersecurity and Cloud" />
 
-### AI Engineering · Cybersecurity · Cloud · Software Development
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://ayush-portfolio-eta-two.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-maurya-93a91b288/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayushmaurya01)
 
-Building practical projects, exploring emerging technologies, and learning by shipping.
-
-[Portfolio](https://ayush-portfolio-eta-two.vercel.app/) · [GitHub](https://github.com/Ayushmaurya01) · [LinkedIn](https://linkedin.com/in/ayush-maurya-93a91b288/)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=14B8A6&center=true&vCenter=true&width=700&lines=Building+AI-powered+projects;Exploring+Cybersecurity+%26+Cloud;Learning+by+building+and+shipping;Turning+ideas+into+working+prototypes)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
-I'm a Computer Science engineering student interested in building useful software at the intersection of **AI, cybersecurity, and cloud technologies**. I enjoy turning ideas into prototypes, learning new tools through hands-on projects, and collaborating with the developer community.
+```python
+class AyushMaurya:
+    def __init__(self):
+        self.role = "B.Tech CSE Student"
+        self.interests = [
+            "AI Engineering",
+            "Cybersecurity",
+            "Cloud Computing",
+            "Software Development"
+        ]
+        self.current_focus = [
+            "Building practical AI applications",
+            "C++ and Data Structures & Algorithms",
+            "HTTP, REST APIs, and web security",
+            "Cloud deployment and developer tooling"
+        ]
 
-- 🤖 Exploring AI-powered applications and developer tools
-- 🛡️ Building my foundations in cybersecurity, networking, and web/API security
-- ☁️ Learning cloud technologies and application deployment
-- 🚀 Participating in hackathons and hands-on developer programs
-- 💻 Practising problem-solving and strengthening my C++ and DSA skills
+    def mindset(self):
+        return "Learn by building. Improve with every iteration."
 
-## Featured Projects
+me = AyushMaurya()
+print(me.mindset())
+```
 
-| Project | What it is | Links |
-|---|---|---|
-| **CarbonMind AI** | An AI-focused project exploring technology-driven approaches to environmental sustainability. | [Repository](https://github.com/Ayushmaurya01/carbonMind-AI) · [Live demo](https://carbonmind-ai-263028233341.us-central1.run.app/) |
-| **ShipIt AI** | A capstone project focused on turning an idea into a working application. | [Repository](https://github.com/Ayushmaurya01/shipit-ai) |
-| **The Local Guide** | A web project built with JavaScript, CSS, and HTML. | [Repository](https://github.com/Ayushmaurya01/kiro-week5-local-guide) |
-| **Smart Download Organizer** | A Python utility for organizing downloaded files and improving everyday workflow. | [Repository](https://github.com/Ayushmaurya01/Smart-Downloads-Organizer) |
-| **AI Snake — Retro Revival** | A browser-based take on the classic Snake game. | [Repository](https://github.com/Ayushmaurya01/kiro-week4-retro-revival) |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Technologies
+### 💬 Code & Curiosity
 
-**Languages**  
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+- 🔭 Building projects that turn ideas into usable prototypes
+- 🌱 Currently strengthening C++, DSA, APIs, and security fundamentals
+- 🤖 Interested in practical AI applications and AI-assisted development
+- ☁️ Exploring cloud services and deployment workflows
+- 🤝 Open to learning and collaborating on meaningful projects
 
-**Web & Data**  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+</td>
+<td width="50%" valign="top">
 
-**Cloud & Developer Tools**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+### 🎞️ My Visual Vibe
 
-*This list highlights technologies relevant to my current direction; it isn't intended to imply expert-level proficiency in every tool.*
+<a href="https://ayush-portfolio-eta-two.vercel.app/">
+<img src="https://github-readme-stats.vercel.app/api?username=Ayushmaurya01&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&title_color=14B8A6&icon_color=14B8A6" alt="Ayush's GitHub overview" width="100%" />
+</a>
 
-## Hackathons & Developer Programs
+**My approach:** experiment, build, document, and keep improving.
+
+</td>
+</tr>
+</table>
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌱 CarbonMind AI
+
+An AI-focused project exploring technology-driven approaches to environmental sustainability.
+
+[![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushmaurya01/carbonMind-AI)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-0F766E?style=flat-square&logo=googlecloud&logoColor=white)](https://carbonmind-ai-263028233341.us-central1.run.app/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🚀 ShipIt AI
+
+A capstone project focused on turning an idea into a working application through hands-on development.
+
+[![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushmaurya01/shipit-ai)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧭 The Local Guide
+
+A web project built with JavaScript, CSS, and HTML as part of a developer challenge.
+
+[![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushmaurya01/kiro-week5-local-guide)
+
+</td>
+<td width="50%" valign="top">
+
+### 📂 Smart Download Organizer
+
+A Python utility project focused on organizing downloaded files and streamlining a daily workflow.
+
+[![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushmaurya01/Smart-Downloads-Organizer)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐍 AI Snake — Retro Revival
+
+A browser-based take on the classic Snake game, built with JavaScript, CSS, and HTML.
+
+[![Repository](https://img.shields.io/badge/Source_Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Ayushmaurya01/kiro-week4-retro-revival)
+
+</td>
+<td width="50%" valign="top">
+
+### 💡 What I like building
+
+AI-powered tools, useful web apps, workflow automation, and prototypes that solve a clear problem.
+
+</td>
+</tr>
+</table>
+
+## 🏆 Achievements & Experience
+
+<p>
+<img src="https://img.shields.io/badge/Smart_India_Hackathon-2025-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="Smart India Hackathon 2025 participant" />
+<img src="https://img.shields.io/badge/AWS-AI_for_Bharat-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS AI for Bharat" />
+<img src="https://img.shields.io/badge/Developer_Programs-Hands--on_Building-0F766E?style=for-the-badge&logo=devdotto&logoColor=white" alt="Hands-on developer programs" />
+</p>
 
 - **Smart India Hackathon 2025** — participated in problem-solving and prototype development.
-- **AWS AI for Bharat / Kiro challenges** — explored AI-assisted development and built projects through hands-on challenges.
-- **Community and developer events** — learning through collaboration, experimentation, and sharing project progress.
+- **AWS AI for Bharat / Kiro challenges** — explored AI-assisted development through hands-on project challenges.
+- **Project-based learning** — building, deploying, and documenting projects while learning new tools.
 
-## Current Focus
+## 🧰 Skills Matrix
 
-- Strengthening C++ and Data Structures & Algorithms
-- Building practical AI-powered applications
-- Learning HTTP, REST APIs, authentication, and web security
-- Exploring cloud deployment and reliable software development
-- Improving documentation and open-source collaboration
+| Area | Technologies & focus |
+|---|---|
+| **Programming** | C · C++ · Python · Java · JavaScript · TypeScript |
+| **Web** | HTML · CSS · JavaScript · REST API fundamentals |
+| **Data** | MySQL · MongoDB · SQLite |
+| **Cloud** | AWS · Google Cloud · application deployment |
+| **Tools** | Git · GitHub · VS Code · Vercel · Render |
+| **Currently learning** | DSA · HTTP/API security · authentication · cybersecurity fundamentals |
 
-## GitHub Activity
+<details>
+<summary><b>🧩 More technologies from my toolkit</b></summary>
+<br>
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+
+</details>
+
+## 📈 Coding Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ayushmaurya01&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub profile statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushmaurya01&layout=compact&hide_border=true" alt="Most used languages" />
+[![GitHub Streak](https://streak-stats.demolab.com?user=Ayushmaurya01&theme=transparent&hide_border=true&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6)](https://github.com/Ayushmaurya01)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ayushmaurya01&bg_color=00000000&color=64748b&line=14b8a6&point=0f766e&area=true&hide_border=true)](https://github.com/Ayushmaurya01)
 
 </div>
 
-> GitHub statistics are generated by a third-party service and may occasionally be unavailable or delayed.
+## 🎛️ Live Innovation Control Panel
 
-## Connect
+```mermaid
+flowchart TD
+    A["🎯 Identify a problem"] --> B["💡 Explore an idea"]
+    B --> C["⚡ Build a prototype"]
+    C --> D["🧪 Test and improve"]
+    D --> E["🚀 Deploy and document"]
+    E --> F["🌍 Learn from feedback"]
+    F --> A
 
-- **Portfolio:** [ayush-portfolio-eta-two.vercel.app](https://ayush-portfolio-eta-two.vercel.app/)
-- **LinkedIn:** [ayush-maurya](https://linkedin.com/in/ayush-maurya-93a91b288/)
-- **Instagram:** [@the_ayush_maurya__](https://instagram.com/the_ayush_maurya__/)
-- **Email:** [Contact me](mailto:mauryaayush631@gmail.com)
+    A1["🤖 AI applications"] --> B1["🛡️ Security by design"]
+    B1 --> C1["☁️ Cloud deployment"]
+    C1 --> D1["🤝 Collaboration"]
+
+    style A fill:#0F766E,color:#FFFFFF,stroke:#14B8A6
+    style B fill:#164E63,color:#FFFFFF,stroke:#22D3EE
+    style C fill:#115E59,color:#FFFFFF,stroke:#2DD4BF
+    style D fill:#1E293B,color:#FFFFFF,stroke:#94A3B8
+    style E fill:#0F766E,color:#FFFFFF,stroke:#14B8A6
+    style F fill:#164E63,color:#FFFFFF,stroke:#22D3EE
+    style A1 fill:#134E4A,color:#FFFFFF,stroke:#2DD4BF
+    style B1 fill:#1E293B,color:#FFFFFF,stroke:#94A3B8
+    style C1 fill:#164E63,color:#FFFFFF,stroke:#22D3EE
+    style D1 fill:#0F766E,color:#FFFFFF,stroke:#14B8A6
+```
+
+## 💡 A Thought I Build By
+
+<div align="center">
+
+> “Great things are done by a series of small things brought together.”
+
+— Vincent van Gogh
+
+</div>
+
+## 🤝 Let's Connect
+
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F766E?style=for-the-badge&logo=vercel&logoColor=white)](https://ayush-portfolio-eta-two.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-maurya-93a91b288/)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/the_ayush_maurya__/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mauryaayush631@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ayushmaurya01)
+
+</div>
 
 ---
 
 <div align="center">
 
-*Build with curiosity. Learn by doing. Improve with every project.*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:164E63,100:0F172A&height=100&section=footer" width="100%" alt="" />
+
+<sub>Build with curiosity · Learn by doing · Improve with every project</sub>
 
 </div>
