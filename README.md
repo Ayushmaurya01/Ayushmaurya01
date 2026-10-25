@@ -174,7 +174,7 @@ AI-powered tools, useful web apps, workflow automation, and prototypes that solv
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ayushmaurya01&theme=transparent&hide_border=true&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6)](https://github.com/Ayushmaurya01)
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ayushmaurya01&bg_color=00000000&color=64748b&line=14b8a6&point=0f766e&area=true&hide_border=true)](https://github.com/Ayushmaurya01)
+[![Ayush's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Ayushmaurya01&theme=github-compact&hide_border=true)](https://github.com/Ayushmaurya01)
 
 </div>
 
