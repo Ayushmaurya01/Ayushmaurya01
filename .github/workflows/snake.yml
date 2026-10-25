@@ -181,8 +181,7 @@ jobs:
               parts.append(
                   f'<rect x="{x}" y="{y}" '
                   f'width="{cell}" height="{cell}" '
-                  f'rx="2" fill="{fill}" '
-                  f'stroke="#30363D" stroke-width="1">'
+                  f'rx="2" fill="{fill}">'
                   f'<title>{key}: {count} contributions</title></rect>'
               )
 
