@@ -1,21 +1,99 @@
-# 💫 About Me:
-🔭 I’m currently working on TypeScript<br>👯 I’m looking to collaborate on Open Source Contributors<br>🌱 I’m currently learning Java<br>💬 Ask me about Programs & coding skills<br>⚡ Fun fact is " I am a AI Coder "
+<div align="center">
 
+# Ayush Maurya
 
-## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/nHt8QkHphv) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/the_ayush_maurya__/?__pwa=1) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ayush-maurya-93a91b288/) [![Quora](https://img.shields.io/badge/Quora-%23B92B27.svg?logo=Quora&logoColor=white)](https://quora.com/profile/Ayush-Maurya-229) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/the_ayush_maurya__/) [![Twitch](https://img.shields.io/badge/Twitch-%239146FF.svg?logo=Twitch&logoColor=white)](https://twitch.tv/the_ayush_maurya__) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/mouse94_) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mauryaayush631@gmail.com) 
+### AI Engineering · Cybersecurity · Cloud · Software Development
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat-square&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat-square&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat-square&logo=typescript&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=flat-square&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=flat-square&logo=google-cloud&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=flat-square&logo=firebase) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=flat-square&logo=anaconda&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=flat-square&logo=django&logoColor=white) ![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=flat-square&logo=nestjs&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=flat-square&logo=tailwind-css&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=flat-square&logo=apache&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=flat-square&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat-square&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=flat-square&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=flat-square&logo=adobe&logoColor=white) ![Adobe Lightroom](https://img.shields.io/badge/Adobe%20Lightroom-31A8FF.svg?style=flat-square&logo=Adobe%20Lightroom&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat-square&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat-square&logo=Canva&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=flat-square&logo=figma&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Ayushmaurya01&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Ayushmaurya01&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushmaurya01&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+Building practical projects, exploring emerging technologies, and learning by shipping.
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Ayushmaurya01&limit=5&theme=dark&combine_all_yearly_contributions=true)
+[Portfolio](https://ayush-portfolio-eta-two.vercel.app/) · [GitHub](https://github.com/Ayushmaurya01) · [LinkedIn](https://linkedin.com/in/ayush-maurya-93a91b288/)
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Ayushmaurya01&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## About Me
+
+I'm a Computer Science engineering student interested in building useful software at the intersection of **AI, cybersecurity, and cloud technologies**. I enjoy turning ideas into prototypes, learning new tools through hands-on projects, and collaborating with the developer community.
+
+- 🤖 Exploring AI-powered applications and developer tools
+- 🛡️ Building my foundations in cybersecurity, networking, and web/API security
+- ☁️ Learning cloud technologies and application deployment
+- 🚀 Participating in hackathons and hands-on developer programs
+- 💻 Practising problem-solving and strengthening my C++ and DSA skills
+
+## Featured Projects
+
+| Project | What it is | Links |
+|---|---|---|
+| **CarbonMind AI** | An AI-focused project exploring technology-driven approaches to environmental sustainability. | [Repository](https://github.com/Ayushmaurya01/carbonMind-AI) · [Live demo](https://carbonmind-ai-263028233341.us-central1.run.app/) |
+| **ShipIt AI** | A capstone project focused on turning an idea into a working application. | [Repository](https://github.com/Ayushmaurya01/shipit-ai) |
+| **The Local Guide** | A web project built with JavaScript, CSS, and HTML. | [Repository](https://github.com/Ayushmaurya01/kiro-week5-local-guide) |
+| **Smart Download Organizer** | A Python utility for organizing downloaded files and improving everyday workflow. | [Repository](https://github.com/Ayushmaurya01/Smart-Downloads-Organizer) |
+| **AI Snake — Retro Revival** | A browser-based take on the classic Snake game. | [Repository](https://github.com/Ayushmaurya01/kiro-week4-retro-revival) |
+
+## Technologies
+
+**Languages**  
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+**Web & Data**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+**Cloud & Developer Tools**  
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
+*This list highlights technologies relevant to my current direction; it isn't intended to imply expert-level proficiency in every tool.*
+
+## Hackathons & Developer Programs
+
+- **Smart India Hackathon 2025** — participated in problem-solving and prototype development.
+- **AWS AI for Bharat / Kiro challenges** — explored AI-assisted development and built projects through hands-on challenges.
+- **Community and developer events** — learning through collaboration, experimentation, and sharing project progress.
+
+## Current Focus
+
+- Strengthening C++ and Data Structures & Algorithms
+- Building practical AI-powered applications
+- Learning HTTP, REST APIs, authentication, and web security
+- Exploring cloud deployment and reliable software development
+- Improving documentation and open-source collaboration
+
+## GitHub Activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Ayushmaurya01&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub profile statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ayushmaurya01&layout=compact&hide_border=true" alt="Most used languages" />
+
+</div>
+
+> GitHub statistics are generated by a third-party service and may occasionally be unavailable or delayed.
+
+## Connect
+
+- **Portfolio:** [ayush-portfolio-eta-two.vercel.app](https://ayush-portfolio-eta-two.vercel.app/)
+- **LinkedIn:** [ayush-maurya](https://linkedin.com/in/ayush-maurya-93a91b288/)
+- **Instagram:** [@the_ayush_maurya__](https://instagram.com/the_ayush_maurya__/)
+- **Email:** [Contact me](mailto:mauryaayush631@gmail.com)
+
+---
+
+<div align="center">
+
+*Build with curiosity. Learn by doing. Improve with every project.*
+
+</div>
