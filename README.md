@@ -175,16 +175,13 @@ AI-powered tools, useful web apps, workflow automation, and prototypes that solv
 [![GitHub Streak](https://streak-stats.demolab.com?user=Ayushmaurya01&theme=transparent&hide_border=true&ring=14B8A6&fire=14B8A6&currStreakLabel=14B8A6)](https://github.com/Ayushmaurya01)
 
 
-
 ## 📈 My GitHub Journey
 
 <div align="center">
 
-[![GitHub Contributions](https://ghchart.rshah.org/14b8a6/Ayushmaurya01)](https://github.com/Ayushmaurya01)
+[![GitHub Contributions](https://ghchart.xqsit94.in/dark:teal/Ayushmaurya01)](https://github.com/Ayushmaurya01)
 
 </div>
-
-
 
 
 </div>
@@ -204,7 +201,7 @@ AI-powered tools, useful web apps, workflow automation, and prototypes that solv
 
 </div>
 
-> **Setup note:** GitHub needs to generate this animation before it appears. Add the workflow file provided with this README to `.github/workflows/snake.yml`, then run the **Generate Snake** workflow once from the Actions tab. The workflow publishes the SVG to the `output` branch.
+> 
 
 ## 🎛️ Live Innovation Control Panel
 
