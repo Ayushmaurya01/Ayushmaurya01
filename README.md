@@ -179,7 +179,7 @@ AI-powered tools, useful web apps, workflow automation, and prototypes that solv
 
 <div align="center">
 
-[![GitHub Contributions](https://ghchart.xqsit94.in/dark:teal/Ayushmaurya01)](https://github.com/Ayushmaurya01)
+[![GitHub Contributions](https://raw.githubusercontent.com/Ayushmaurya01/Ayushmaurya01/output/contribution-calendar.svg)](https://github.com/Ayushmaurya01)
 
 </div>
 
