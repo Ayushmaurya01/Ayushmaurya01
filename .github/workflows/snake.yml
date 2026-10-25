@@ -25,6 +25,10 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%2314B8A6&color_dots=%23161B22,%23064E3B,%230B6E4F,%2310B981,%2334D399
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2314B8A6&color_dots=%23161B22,%23064E3B,%230B6E4F,%2310B981,%2334D399
+                  - name: Prepare output directory
+                  run: |
+                    chmod -R u+rwX dist
+                    mkdir -p dist
 
       - name: Generate custom contribution calendar
         env:
@@ -146,7 +150,8 @@ jobs:
 
           parts.append("</svg>")
 
-          Path("dist").mkdir(exist_ok=True)
+          Path("dist").chmod(0o755)
+          Path("dist/contribution-calendar.svg").parent.mkdir(parents=True, exist_ok=True)
           Path("dist/contribution-calendar.svg").write_text(
               "\n".join(parts), encoding="utf-8"
           )
