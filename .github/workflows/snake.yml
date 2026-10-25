@@ -25,20 +25,17 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%2314B8A6&color_dots=%23161B22,%23064E3B,%230B6E4F,%2310B981,%2334D399
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%2314B8A6&color_dots=%23161B22,%23064E3B,%230B6E4F,%2310B981,%2334D399
-                  - name: Prepare output directory
-                  run: |
-                    chmod -R u+rwX dist
-                    mkdir -p dist
 
       - name: Generate custom contribution calendar
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python - <<'PY'
-          import os, json, urllib.request
+          import os
+          import json
+          import urllib.request
           from datetime import datetime, timedelta, timezone
           from pathlib import Path
-          from collections import defaultdict
 
           today = datetime.now(timezone.utc).date()
           start = today - timedelta(days=364)
@@ -90,43 +87,72 @@ jobs:
               raise RuntimeError("GitHub user was not found.")
 
           weeks = user["contributionsCollection"]["contributionCalendar"]["weeks"]
-          if not weeks:
-              raise RuntimeError("GitHub returned no contribution weeks.")
 
           days = []
           for week in weeks:
               for day in week["contributionDays"]:
-                  days.append((
-                      day["date"],
-                      day["contributionCount"]
-                  ))
+                  if start.isoformat() <= day["date"] <= today.isoformat():
+                      days.append((
+                          day["date"],
+                          day["contributionCount"]
+                      ))
 
-          days = [(d, c) for d, c in days if start.isoformat() <= d <= today.isoformat()]
+          if not days:
+              raise RuntimeError("No contribution data was returned.")
+
           counts = [count for _, count in days]
           maximum = max(counts, default=0)
 
           def shade(count):
               if count == 0:
                   return "#161B22"
+
               if maximum <= 1:
                   level = 4
               else:
-                  level = min(4, max(1, (count * 4 + maximum - 1) // maximum))
-              return ["#161B22", "#3B0764", "#6B21A8", "#9333EA", "#C084FC"][level]
+                  level = min(
+                      4,
+                      max(1, (count * 4 + maximum - 1) // maximum)
+                  )
 
-          # Arrange dates in GitHub's Sunday-first calendar grid.
-          first_date = datetime.strptime(days[0][0], "%Y-%m-%d").date()
-          first_sunday = first_date - timedelta(days=(first_date.weekday() + 1) % 7)
-          last_date = datetime.strptime(days[-1][0], "%Y-%m-%d").date()
-          last_saturday = last_date + timedelta(days=(5 - last_date.weekday()) % 7)
-          weeks_count = ((last_saturday - first_sunday).days // 7) + 1
+              return [
+                  "#161B22",
+                  "#3B0764",
+                  "#6B21A8",
+                  "#9333EA",
+                  "#C084FC"
+              ][level]
 
-          cell, gap = 11, 3
-          left, top = 12, 12
+          first_date = datetime.strptime(
+              days[0][0], "%Y-%m-%d"
+          ).date()
+
+          first_sunday = first_date - timedelta(
+              days=(first_date.weekday() + 1) % 7
+          )
+
+          last_date = datetime.strptime(
+              days[-1][0], "%Y-%m-%d"
+          ).date()
+
+          last_saturday = last_date + timedelta(
+              days=(5 - last_date.weekday()) % 7
+          )
+
+          weeks_count = (
+              (last_saturday - first_sunday).days // 7
+          ) + 1
+
+          cell = 11
+          gap = 3
+          left = 12
+          top = 12
+
           width = left * 2 + weeks_count * (cell + gap) - gap
           height = top * 2 + 7 * (cell + gap) - gap
 
           count_by_date = dict(days)
+
           parts = [
               f'<svg xmlns="http://www.w3.org/2000/svg" '
               f'viewBox="0 0 {width} {height}" role="img" '
@@ -135,34 +161,56 @@ jobs:
           ]
 
           d = first_sunday
+
           while d <= last_saturday:
               key = d.isoformat()
-              x = left + ((d - first_sunday).days // 7) * (cell + gap)
-              y = top + ((d.weekday() + 1) % 7) * (cell + gap)
+
+              x = left + (
+                  (d - first_sunday).days // 7
+              ) * (cell + gap)
+
+              y = top + (
+                  (d.weekday() + 1) % 7
+              ) * (cell + gap)
+
               count = count_by_date.get(key, 0)
               fill = shade(count)
+
               parts.append(
-                  f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" '
-                  f'rx="2" fill="{fill}" stroke="#30363D" stroke-width="1">'
+                  f'<rect x="{x}" y="{y}" '
+                  f'width="{cell}" height="{cell}" '
+                  f'rx="2" fill="{fill}" '
+                  f'stroke="#30363D" stroke-width="1">'
                   f'<title>{key}: {count} contributions</title></rect>'
               )
+
               d += timedelta(days=1)
 
           parts.append("</svg>")
 
-          Path("dist").chmod(0o755)
-          Path("dist/contribution-calendar.svg").parent.mkdir(parents=True, exist_ok=True)
-          Path("dist/contribution-calendar.svg").write_text(
-              "\n".join(parts), encoding="utf-8"
+          # Generate outside the snake action's dist directory.
+          output_dir = Path("calendar-build")
+          output_dir.mkdir(exist_ok=True)
+
+          (output_dir / "contribution-calendar.svg").write_text(
+              "\n".join(parts),
+              encoding="utf-8"
           )
+
           print(f"Generated calendar with {len(days)} daily records.")
           PY
+
+      - name: Prepare publication directory
+        run: |
+          mkdir -p publish-dist
+          cp -a dist/. publish-dist/
+          cp calendar-build/contribution-calendar.svg publish-dist/
 
       - name: Publish snake and calendar images
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: publish-dist
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
