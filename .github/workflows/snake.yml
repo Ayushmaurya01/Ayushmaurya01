@@ -115,12 +115,13 @@ jobs:
                       max(1, (count * 4 + maximum - 1) // maximum)
                   )
 
+              
               return [
-                  "#161B22",
-                  "#3B0764",
-                  "#6B21A8",
-                  "#9333EA",
-                  "#C084FC"
+                  "#161B22",  # No contributions
+                  "#0E7490",  # Low
+                  "#0891B2",  # Medium-low
+                  "#14B8A6",  # Medium-high
+                  "#34D399"   # High
               ][level]
 
           first_date = datetime.strptime(
