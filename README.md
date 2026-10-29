@@ -271,3 +271,5 @@ flowchart TD
 <sub>Build with curiosity · Learn by doing · Improve with every project</sub>
 
 </div>
+
+//Streak reminder
